@@ -28,6 +28,46 @@ p {
   font-size: 18px;
 }
 
+.logo,
+.logo-small {
+  max-width: 150px;
+  max-height: 40px;
+}
+
+.logo-small {
+  padding: 0;
+  margin-top: 0;
+  margin-left: -50px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 2.25;
+  margin-left: 15px;
+}
+
+nav a {
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: var(--hero-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
