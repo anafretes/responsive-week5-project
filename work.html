@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio Project - Work</title>
+    <meta
+      name="description"
+      content="Explore specially selected works from Ana Fretes." />
+    <title>Front-end developer - Work</title>
 
     <link rel="stylesheet" href="/src/styles.css" />
     <link
@@ -28,22 +31,27 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Website logo" />
         </a>
         <a href="/">
           <img
             src="/images/logo-small.jpg"
             class="logo-small d-block d-md-none"
-            alt="" />
+            alt="Small website logo" />
         </a>
         <ul class="align-items-start align-items-md-end">
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/about.html" title="About Ana">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Ana's Work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Ana">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +65,7 @@
         <div class="col-md-6 text-center mb-5">
           <img
             src="/images/yogurt.png"
-            alt=""
+            alt="Yogurt project screenshot"
             class="img-fluid img-thumbnail mb-5" />
           <p class="byline fw-bold text-black lh-1">Yogurt Project</p>
           <p class="mb-5 lh-1">Built with HTML and CSS</p>
@@ -65,7 +73,7 @@
         <div class="col-md-6 text-center mb-5">
           <img
             src="/images/weather.png"
-            alt=""
+            alt="Weather app screenshot"
             class="img-fluid img-thumbnail mb-5" />
           <p class="byline fw-bold text-black lh-1">Weather App</p>
           <p class="mb-5 lh-1">Built with HTML, CSS and JavaScript</p>
@@ -73,7 +81,7 @@
         <div class="col-md-6 text-center mb-5">
           <img
             src="/images/dictionary.png"
-            alt=""
+            alt="Dictionary app screenshot"
             class="img-fluid img-thumbnail mb-5" />
           <p class="byline fw-bold text-black lh-1">Dictionary</p>
           <p class="mb-5 lh-1">Built with HTML, CSS and React</p>
@@ -81,12 +89,70 @@
         <div class="col-md-6 text-center mb-5">
           <img
             src="/images/translation.png"
-            alt=""
+            alt="Translation project screenshot"
             class="img-fluid img-thumbnail mb-5" />
           <p class="byline fw-bold text-black lh-1">Translation</p>
           <p class="mb-5 lh-1">Built with HTML, CSS and React</p>
         </div>
       </div>
+    </div>
+    <div class="container">
+      <footer>
+        <div class="d-flex flex-column">
+          <div
+            class="contact-box p-5 mb-5 justify-content-between d-none d-md-flex">
+            <div class="text-start">
+              <h3>Work Inquiry</h3>
+              <p class="fw-bold fs-6">Let's work together</p>
+            </div>
+            <div class="">
+              <a
+                href="/contact.html"
+                title="Contact Ana"
+                class="btn-branding d-inline-flex mt-2"
+                >Contact me</a
+              >
+            </div>
+          </div>
+        </div>
+        <a
+          href="mailto:anafretes@secretemail.com"
+          class="email-link text-decoration-none text-dark mb-5"
+          title="Email Ana"
+          >anafretes@secretemail.com</a
+        >
+
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/anafretes"
+            target="_blank"
+            title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.medium.com/@anafretes"
+            target="_blank"
+            title="Medium Profile"
+            ><i class="fa-brands fa-medium"></i
+          ></a>
+          <a
+            href="https://www.twitter.com/faketwitteracct"
+            target="_blank"
+            title="Twitter Profile"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <p class="fs-6 my-5">
+          🌟 This project was created by SheCodes, and you can see the
+          open-source code
+          <a
+            href="https://www.github.com/matthieua/portfolio-project"
+            target="_blank"
+            class="text-decoration-none"
+            >here</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>

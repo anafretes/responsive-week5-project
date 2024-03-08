@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio Project - Contact</title>
+    <meta
+      name="description"
+      content="Contact Ana Fretes about front-end development related inquiries." />
+    <title>Front-end developer - Contact</title>
 
     <link rel="stylesheet" href="/src/styles.css" />
     <link
@@ -28,22 +31,27 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Website logo" />
         </a>
         <a href="/">
           <img
             src="/images/logo-small.jpg"
             class="logo-small d-block d-md-none"
-            alt="" />
+            alt="Small website logo" />
         </a>
         <ul class="align-items-start align-items-md-end">
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li class="active"><a href="/contact.html">Contact</a></li>
+          <li><a href="/about.html" title="About Ana">About</a></li>
+          <li><a href="/work.html" title="Ana's Work">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Ana">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -63,6 +71,64 @@
       <p class="byline fs-6 mb-4">
         <a href="https://medium.com/@anafretes" target="_blank">@anafretes</a>
       </p>
+    </div>
+    <div class="container">
+      <footer>
+        <div class="d-flex flex-column">
+          <div
+            class="contact-box p-5 mb-5 justify-content-between d-none d-md-flex">
+            <div class="text-start">
+              <h3>Work Inquiry</h3>
+              <p class="fw-bold fs-6">Let's work together</p>
+            </div>
+            <div class="">
+              <a
+                href="/contact.html"
+                title="Contact Ana"
+                class="btn-branding d-inline-flex mt-2"
+                >Contact me</a
+              >
+            </div>
+          </div>
+        </div>
+        <a
+          href="mailto:anafretes@secretemail.com"
+          class="email-link text-decoration-none text-dark mb-5"
+          title="Email Ana"
+          >anafretes@secretemail.com</a
+        >
+
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/anafretes"
+            target="_blank"
+            title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.medium.com/@anafretes"
+            target="_blank"
+            title="Medium Profile"
+            ><i class="fa-brands fa-medium"></i
+          ></a>
+          <a
+            href="https://www.twitter.com/faketwitteracct"
+            target="_blank"
+            title="Twitter Profile"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <p class="fs-6 my-5">
+          🌟 This project was created by SheCodes, and you can see the
+          open-source code
+          <a
+            href="https://www.github.com/matthieua/portfolio-project"
+            target="_blank"
+            class="text-decoration-none"
+            >here</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
