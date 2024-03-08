@@ -79,6 +79,7 @@ footer {
 
 footer .email-link {
   font-family: var(--default-font-family);
+  font-size: 24px !important;
 }
 
 footer .email-link:hover {
@@ -200,10 +201,7 @@ footer .social-links a:hover {
   .side-paragraph {
     text-align: center;
   }
-}
-
-@media (min-width: 800px) {
-  .email-link {
-    font-size: 20px;
+  footer .email-link {
+    font-size: 18px !important;
   }
 }
